@@ -37,3 +37,80 @@
     width: 387px;
     height: 96px;
 }
+/* START FEATURE */
+.feature-heading{
+    color: #000;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    width: 435px;
+    height: 172px;
+}
+.feature-list .feature-item{
+    width: 340px;
+    /* height: 245px; */
+}
+.feature-item .item-icon{
+    /* width: 100px;
+    height: 100px; */
+}
+.feature-item .item-heading{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+    letter-spacing: 0.5px;
+    width: 170px;
+    /* height: 29px; */
+}
+.feature-item p{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.5px;
+    width: 314px;
+    height: 72px;
+}
+
+/* START AKSIYA */
+.aksiya{
+    border-radius: 12px;
+    background: #252420;
+}
+.aksiya h2{
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 48px */
+    letter-spacing: 0.5px;
+    width: 373px;
+}
+.aksiya p{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 440px;
+}
+
+/* START FOOTER */
+footer{
+    background-color: #F8F8F8;
+}
+.menu-list{
+    width: 224px;
+}
+.menu-item a{
+    color: #252420;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
