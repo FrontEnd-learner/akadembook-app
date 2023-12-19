@@ -8,6 +8,9 @@
 .site-header{
     background-color: #FFF;
 }
+.sitenav-list{
+
+}
 .sitenav-link{
     color: #000;
     font-size: 13px;
@@ -122,4 +125,13 @@
 .site-footer-divider{
     background-color: rgba(37, 36, 32, 0.50);
     height: 2px;
+}
+.site-footer-links{
+    width: 220px;
+}
+.site-footer-links a{
+    color: #252420;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
 }
