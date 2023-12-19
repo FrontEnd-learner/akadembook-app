@@ -10,75 +10,84 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <nav>
             <!-- SITE HEADER -->
             <a class="logo" href="index.html">
                <img src="img/logo.svg" alt="logo" width="227" height="60">
             </a>
             <ul class="nav-list">
-                <li class="nav-item"><a href="#">Bosh sahifa</a></li>
-                <li class="nav-item"><a href="#">Aksiyalar</a></li>
-                <li class="nav-item"><a href="#">Kontaktlar</a></li>
-                <li class="nav-item"><a href="#">Kitoblar</a></li>
-                <li class="nav-item"><a href="#">Ro’yxatdan o’tish</a></li>
+                <li class="nav-item"><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+                <li class="nav-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+                <li class="nav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
+                <li class="nav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
             </ul>
+            <a class="main-link" class="sitenav-link" href="#">Ro’yxatdan o’tish</a>
         </nav>
     </header>
 
     <!-- FEATURE SECTION -->
     <hr>
     <main>
-        <!-- SITE BANNER -->
-        <section class="banner">
-            <div class="banner-text">
-                <hr>
-                <h2 class="banner-heading">Pythonda dasturlash asoslari</h2>
-                <p>Dasturlash asoslariga oid o'zbek tilidagi ilk eng mukammal qo'llanma. Kitobning har bir bo'limi uchun maxsus video darslar yozilgan bo'lib, ularga kitobda ko'rsatilgan QR kod orqali o'tish mumkin</p>
-                <a href="#">Buyurtma berish</a>
+        <!-- SITE HERO -->
+        <section class="hero">
+            <div class="hero-content">
+                <hr class="orange-line">
+                <h2 class="hero-heading">Pythonda dasturlash asoslari</h2>
+                <p class="hero-text">Dasturlash asoslariga oid o'zbek tilidagi ilk eng mukammal qo'llanma. Kitobning har bir bo'limi uchun maxsus video darslar yozilgan bo'lib, ularga kitobda ko'rsatilgan QR kod orqali o'tish mumkin</p>
+                <a class="main-link" href="#">Buyurtma berish</a>
             </div>
 
-            <div class="banner-img">
+            <div class="hero-img">
                 <img src="img/python-book@2x.jpg" alt="image" width="510" height="510">
             </div>
 
         </section>
         <!-- FEATURE  -->
-        <section class="feature">
-            <h2 class="feature-heading">Nega aynan <br> Akademnashr?</h2>
+        <section class="features">
+            <hr class="orange-line">
+            <h2 class="features-heading">Nega aynan Akademnashr?</h2>
             <ul class="feature-list">
-                <li class="feature-item">
-                    <img class="item-icon" src="img/cursor-click.svg" alt="" width="56" height="56">
-                    <h3 class="item-heading">Oson buyurtma qilish</h3>
-                    <p>Akademnashr.uz saytidan o'zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
+                <li class="features-item">
+                    <div class="features-icon-wrapper">
+                        <img class="item-icon" src="img/cursor-click.svg" alt="" width="56" height="56">
+                    </div>
+                    <h3 class="features-title">Oson buyurtma qilish</h3>
+                    <p class="features-info">Akademnashr.uz saytidan o'zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
                 </li>
-                <li class="feature-item">
-                    <img class="item-icon" src="img/lightning-bolt.svg" alt="" width="56" height="56">
-                    <h3 class="item-heading">Eng sara kitoblar</h3>
-                    <p>trenddagi eng ommabop, auditoriyalarga mo'ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
+                <li class="features-item">
+                    <div class="features-icon-wrapper">
+                        <img class="item-icon" src="img/lightning-bolt.svg" alt="" width="56" height="56">
+                    </div>
+                    <h3 class="features-title">Eng sara kitoblar</h3>
+                    <p class="features-info">trenddagi eng ommabop, auditoriyalarga mo'ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
                 </li>
-                <li class="feature-item">
-                    <img class="item-icon" src="img/sparkles.svg" alt="" width="56" height="56">
-                    <h3 class="item-heading">Tez yetkazib berish</h3>
-                    <p>O'zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
+                <li class="features-item">
+                    <div class="features-icon-wrapper">
+                        <img class="item-icon" src="img/sparkles.svg" alt="" width="56" height="56">
+                    </div>
+                    <h3 class="features-title">Tez yetkazib berish</h3>
+                    <p class="features-info">O'zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
                 </li>
             </ul>
         </section>
         <!--   AKSIYA -->
-        <section class="aksiya">
-            <div>
-                <h2>Bolalar kitoblari uchun ajoyib aksiya!</h2>
-                <p>Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-                <p>Aksiyadagi eng katta to’plamda <b>50 ta kitob</b>ni <b>50 ta kitob</b> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+        <section class="promo">
+            <div class="promo-content">
+                <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
+                <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+
+                <p class="promo-text">Aksiyadagi eng katta to’plamda <b class="promo-highlight">50 ta kitob</b>ni <b class="promo-highlight">50 ta kitob</b> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+                <a class="main-link" href="#">Buyurtma berish</a>
             </div>
             <div>
-                <img src="img/sale-img@2x.jpg" width="440" height="440" alt="image">
+                <img class="promo-img" src="img/sale-img@2x.jpg" width="440" height="440" alt="image">
             </div>
         </section>
     </main>
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="site-footer">
         <div class="footer-media">
             <img src="img/logo.svg" alt="logo" width="227" height="60">
             <ul class="media-list">
@@ -99,7 +108,7 @@
                 </li>
             </ul>
         </div>
-        <hr>
+        <hr class="site-footer-divider">
         <div class="footer-menu">
             <ul class="menu-list">
                 <li class="menu-item"><a href="#">Bosh sahifa</a></li>
