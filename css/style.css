@@ -20,6 +20,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 5px solid #ff7500;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .logo-link{
     transition: opacity 0.4s ease; /* alohida main elem. bergan yaxshi*/
@@ -36,6 +39,7 @@ body{
 }
 .sitenav-list{
     display: flex;
+    padding: 0;
 }
 .sitenav-link{
     color: #000;
@@ -55,6 +59,8 @@ body{
     opacity: 0.6;
 }
 .main-link{
+    display: inline-block;
+    padding: 12px 24px;
     color: #FFF;
     font-size: 13px;
     font-style: normal;
@@ -75,6 +81,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #252420;
     color: #fff;   /* bunda ichidagi yozuvlar oq ranga kiradi meros bo'lib o'tdi bola taglarga*/
 }
@@ -85,6 +93,7 @@ body{
     width: 80px;
     height: 3px;
     background-color: #ff7500;
+    border: none;
 }
 .hero-heading{
     font-size: 40px;
@@ -96,11 +105,16 @@ body{
     font-weight: 400;
     line-height: 150%; /* 24px */
 }
-.hero-img{
+.hero-img img{
     width: 510px;
     height: 510px;
+    border-radius: 8px;
 }
 /* START FEATURES */
+.features{
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
 .features-heading{
     color: #000;
     font-size: 72px;
@@ -114,8 +128,12 @@ body{
     justify-content: space-between;
 }
 .features-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
+    border-radius: 50%;
     background-color: rgba(255, 117, 0, 0.20);
 }
 .features-item{
@@ -138,6 +156,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* padding-top: 120px;
+    padding-bottom: 160px; */
+    border-radius: 12px;
     background-color: #252420;
     color: #fff;
 }
@@ -163,9 +184,12 @@ body{
     width: 440px;
     height: 440px;
     object-fit: cover;
+    border-radius: 12px;
 }
 /* START FOOTER */
 .site-footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
     background-color: #f8f8f8;
 }
 .site-footer-top{
@@ -189,6 +213,7 @@ body{
 .site-footer-divider{
     background-color: rgba(37, 36, 32, 0.50);
     height: 2px;
+    bottom: none;
 }
 .site-footer-bottom{
     display: flex;
