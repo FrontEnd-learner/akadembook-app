@@ -10,6 +10,10 @@ body{
     letter-spacing: 0.5;
     font-family: "Roboto", "Arial", sans-serif;
 }
+*:focus{
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px;
+}
 /*HEADER*/
 .site-header{
     background-color: #FFF;
