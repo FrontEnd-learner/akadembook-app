@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     text-decoration: none;
     list-style: none;
 }
@@ -40,6 +38,14 @@ body{
 .sitenav-list{
     display: flex;
     padding: 0;
+    margin: 0;
+    margin-right: 32px;
+}
+.sitenav-item{
+    margin-right: 32px;
+}
+.sitenav-item:last-child{
+    margin-right: 0;
 }
 .sitenav-link{
     color: #000;
@@ -92,16 +98,22 @@ body{
 .orange-line{
     width: 80px;
     height: 3px;
+    margin: 0;
+    margin-bottom: 40px;
     background-color: #ff7500;
     border: none;
 }
 .hero-heading{
+    margin: 0;
+    margin-bottom: 24px;
     font-size: 40px;
     font-weight: 700;
     line-height: 120%; /* 48px */
     font-family: "Roboto Condensed", "Roboto", sans-serif;
 }
 .hero-text{
+    margin: 0;
+    margin-bottom: 32px;
     font-weight: 400;
     line-height: 150%; /* 24px */
 }
@@ -116,6 +128,8 @@ body{
     padding-bottom: 210px;
 }
 .features-heading{
+    margin: 0;
+    margin-bottom: 72px;
     color: #000;
     font-size: 72px;
     font-weight: 700;
@@ -125,7 +139,9 @@ body{
 }
 .features-list{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    padding: 0;
+    margin: 0;
 }
 .features-icon-wrapper{
     display: flex;
@@ -138,6 +154,10 @@ body{
 }
 .features-item{
     width: 340px;
+    margin-right: 40px;
+}
+.features-item:last-child{
+    margin-right: 0;
 }
 .features-title{
     color: #000;
@@ -166,16 +186,26 @@ body{
     width: 440px;
 }
 .promo-heading{
+    margin-top: 0;
+    margin-bottom: 24px;
     width: 373px;
     font-size: 40px;
     font-weight: 700;
     line-height: 120%; /* 48px */
     font-family: "Roboto Condensed", "Roboto", sans-serif;
 }
+.promo-info-wrapper{
+    margin-bottom: 24px;
+}
 .promo-text{
+    margin-top: 0;
+    margin-bottom: 12px;
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
+}
+.promo-text:last-child{
+    margin-bottom: 0;
 }
 .promo-highlight{
     color: #FF7500;
@@ -200,9 +230,22 @@ body{
 .site-footer-socials{
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
+}
+/* img block */
+.site-footer-socials li{
+    margin-right: 16px;
+}
+.site-footer-socials li:last-child{
+    margin-right: 0;
 }
 .site-footer-socials a{
+    display: block;
     color: #222;
+}
+.site-footer-socials a svg{
+    display: block;
 }
 .site-footer-socials a:hover{
     color: #ff7500;
@@ -213,7 +256,9 @@ body{
 .site-footer-divider{
     background-color: rgba(37, 36, 32, 0.50);
     height: 2px;
-    bottom: none;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 64px;
 }
 .site-footer-bottom{
     display: flex;
@@ -221,6 +266,13 @@ body{
 }
 .site-footer-links{
     width: 220px;
+    /* line-height: 19px    ; */
+    padding: 0;
+    margin: 0;
+    margin-right: 68px;
+}
+.site-footer-links:last-child{
+    margin-right: 0;
 }
 .site-footer-links a{
     color: #252420;
