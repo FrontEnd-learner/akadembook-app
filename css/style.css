@@ -3,19 +3,21 @@
     text-decoration: none;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0; /*bularni o'ylab ko'rish kerak*/
 }
 body{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.5;
+    letter-spacing: 0.5px;
     font-family: "Roboto", "Arial", sans-serif;
 }
+/* bu saytga kirganda tab b-n shlash uchun */
 *:focus{
     outline: 2px dotted #ff7500;
     outline-offset: 3px;
 }
 /* CONTAINER */
+/* huddi shu tartibda ketgani yaxshi */
 .container{
     width: 100%;
     max-width: 1140px;
@@ -67,7 +69,6 @@ body{
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: color 0.4s ease,
@@ -84,9 +85,7 @@ body{
     padding: 12px 24px;
     color: #FFF;
     font-size: 13px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     border-radius: 4px;
     background: #FF7500;
     transition: opacity 0.4s ease;
