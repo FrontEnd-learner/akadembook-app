@@ -21,6 +21,8 @@ body{
 .container{
     width: 100%;
     max-width: 1140px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -58,11 +60,8 @@ body{
     margin: 0;
     margin-right: 32px;
 }
-.sitenav-item{
+.sitenav-item:not(:last-child){
     margin-right: 32px;
-}
-.sitenav-item:last-child{
-    margin-right: 0;
 }
 .sitenav-link{
     color: #000;
@@ -87,7 +86,7 @@ body{
     font-size: 13px;
     font-weight: 700;
     border-radius: 4px;
-    background: #FF7500;
+    background-color: #FF7500;
     transition: opacity 0.4s ease;
 }
 .main-link:hover{
@@ -161,6 +160,7 @@ body{
     padding: 0;
     margin: 0;
 }
+/* ikonkaning yonida dumaloq aylana hosil qilish uchun */
 .features-icon-wrapper{
     display: flex;
     justify-content: center;
@@ -261,6 +261,9 @@ body{
 /* img block */
 .site-footer-socials li{
     margin-right: 16px;
+}
+.media-item a{
+    transition: all 0.3s ease;
 }
 .site-footer-socials li:last-child{
     margin-right: 0;
