@@ -1,3 +1,7 @@
+:root{
+    --brand-color:  #252420;
+    --button-color: #ff7500;
+}
 *{
     box-sizing: border-box;
     text-decoration: none;
@@ -74,7 +78,7 @@ body{
     opacity 0.4s ease;
 }
 .sitenav-link:hover{
-    color: #ff7500;
+    /* color: var(--button-color); */
 }
 .sitenav-link:active{
     opacity: 0.6;
