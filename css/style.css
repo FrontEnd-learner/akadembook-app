@@ -123,6 +123,7 @@ body{
     color: #fff;   /* bunda ichidagi yozuvlar oq ranga kiradi meros bo'lib o'tdi bola taglarga*/
 }
 .hero-container{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,6 +152,11 @@ body{
     margin-bottom: 32px;
     font-weight: 400;
     line-height: 150%; /* 24px */
+}
+.hero-img{
+    position: absolute;
+    top: -40px;
+    right: 20px;
 }
 .hero-img img{
     width: 510px;
@@ -218,6 +224,7 @@ body{
     padding-bottom: 160px;
 }
 .promo-inner{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -253,6 +260,11 @@ body{
 }
 .promo-highlight{
     color: var(--accent-color);
+}
+.promo-img-inner{
+    position: absolute;
+    right: 64px;
+    bottom: 64px;
 }
 .promo-img{
     width: 440px;
